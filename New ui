@@ -1,0 +1,25 @@
+
+
+local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/UI-th%20Library%20v0.1.2"))()
+
+
+local window = Lib:CreateWindow("InfiniX.Lib")
+
+
+local tab = window:CreateTab("Main")
+local tabs = window:CreateTab("Properties")
+
+
+tab:Search()
+
+tab:CreateColor("Color Picker",function(color) print(color) end)
+
+tab:CreateButton("Button", function () loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))() end)
+
+tab:CreateToggle("Toggle/Checkbox",true,function(bool) print(bool) end)
+
+tab:CreateTextbox("Textbox",function(text) print(text) end)
+
+tab:CreateSlider("Slider", 0, 1000, function(value) print(value) end)
+
+tab:CreateDropdown("Dropdown",{"Opt. 1"},function(option) print(option) end)
