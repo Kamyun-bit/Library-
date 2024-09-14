@@ -3,7 +3,7 @@
 local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/UI-th%20Library%20v0.1.2"))()
 
 
-local window = Lib:CreateWindow("InfiniX.Lib")
+local window = Lib:CreateWindow("KAMUN GANTENG")
 
 
 local tab = window:CreateTab("Main")
@@ -14,7 +14,7 @@ tab:Search()
 
 tab:CreateColor("Color Picker",function(color) print(color) end)
 
-tab:CreateButton("Button", function () loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))() end)
+tab:CreateButton("Infinite yield", function () loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))() end)
 
 tab:CreateToggle("Toggle/Checkbox",true,function(bool) print(bool) end)
 
