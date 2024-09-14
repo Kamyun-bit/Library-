@@ -7,13 +7,10 @@ local window = Lib:CreateWindow("KAMUN GANTENG")
 
 
 local tab = window:CreateTab("Main")
-local tabs = window:CreateTab("Properties")
 
 
 tab:Search()
 
-tab:CreateColor("Color Picker",function(color) print(color) end)
-
 tab:CreateButton("Infinite yield", function () loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))() end)
 
-tab:CreateDropdown("Dropdown",{"Opt. 1"},function(option) print(option) end)
+tab:CreateDropdown("DOORS",{"Mspaint"},function(option) loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/mspaint/main/main.lua"))() {"FFJ"},function(option) loadstring(game:HttpGet("https://raw.githubusercontent.com/FFJ1/Roblox-Exploits/main/scripts/Loader.lua"))() end)
