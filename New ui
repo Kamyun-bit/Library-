@@ -3,7 +3,7 @@
 local Lib = loadstring(game:HttpGet("https://raw.githubusercontent.com/Hosvile/Refinement/main/UI-th%20Library%20v0.1.2"))()
 
 
-local window = Lib:CreateWindow("KAMUN GANTENG")
+local window = Lib:CreateWindow("KAMUN SIGMA")
 
 
 local tab = window:CreateTab("Main")
@@ -12,3 +12,5 @@ local tab = window:CreateTab("Main")
 tab:Search()
 
 tab:CreateButton("Infinite yield", function () loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))() end)
+
+tab:CreateButton("ether hub",function () loadstring(game:HttpGet("https://raw.githubusercontent.com/6w0s/_6w0s/main/Loader.lua"))() end)
