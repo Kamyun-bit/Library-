@@ -12,5 +12,3 @@ local tab = window:CreateTab("Main")
 tab:Search()
 
 tab:CreateButton("Infinite yield", function () loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))() end)
-
-tab:CreateDropdown("DOORS",{"Mspaint"},function () loadstring(game:HttpGet("https://raw.githubusercontent.com/notpoiu/mspaint/main/main.lua"))() end)
